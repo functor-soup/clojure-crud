@@ -15,7 +15,6 @@
   (insert polls (values {:name name :rank rank})))
 
 (defn update_ [{:keys [name rank]}]
-  ;; if rank or id is already present, don't bother
   (if (empty? (select polls (where {:name [= name]})))
     (insert_ {:name name :rank rank})
     (update polls
