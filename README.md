@@ -1,14 +1,15 @@
-# clojure-crud
+# clojure-crud-example
 
-A Clojure library designed to ... well, that part is up to you.
+Example crud application with a writeup explanation on my [pitiful blog](https://functor-soup.github.io/blog/2016/08/26/starting-off-with-korma/) 
 
-## Usage
+Tools used so far are 
+ - Clojure
+ - Korma (sql abstraction/ dsl)
+ - Mysql
 
-FIXME
 
 ## License
 
-Copyright © 2016 FIXME
+GPL (not sure how much this counts as clojure is under the eclipse licence
+However, if applies then GPL. If not then the same licence as clojure)
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
