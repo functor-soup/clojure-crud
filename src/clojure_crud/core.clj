@@ -1,8 +1,9 @@
 (ns clojure-crud.core
-  (:use [korma.db]
-        [korma.core]))
+  (:refer-clojure :exclude [update])
+  (:require [korma.db :refer [defdb mysql]]
+            [korma.core :refer [insert select where update defentity]]))
 
-(def credentials {:user "katsura" :db "gintama" :password "elizebethe"})
+(def ^:private credentials {:user "katsura" :db "gintama" :password "elizebethe"})
 
 (defdb gintama (mysql credentials))
 
@@ -26,7 +27,3 @@
     {:error "Name does not exist in db"}
     (delete polls
             (where {:name [= name]}))))
-
-
-
-
