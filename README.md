@@ -1,6 +1,6 @@
 # clojure-crud-example
 
-Example crud application with a writeup explanation on my [pitiful blog](https://functor-soup.github.io/blog/2016/08/26/starting-off-with-korma/) 
+Example crud application with a writeup explanation on my [pitiful blog](https://metric-space.github.io/posts/2016-08-26-starting-off-with-korma.html) 
 
 Tools used so far are 
  - Clojure
